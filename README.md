@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+# Welcome to your Mobile App using react native with Expo 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -15,6 +15,12 @@ From the project directory, install the dependencies recorded in the lockfile:
 
 ```bash
 npm install
+```
+
+This installs React Native and the other dependencies declared in `package.json`. This project uses React Native 0.86.3 with Expo SDK 57. To add or reinstall React Native with the version compatible with this Expo SDK, run:
+
+```bash
+npx expo install react-native
 ```
 
 Check that installed package versions match this Expo SDK:

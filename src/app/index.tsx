@@ -1,13 +1,13 @@
 
 import { Ionicons } from "@expo/vector-icons";
+import { StatusBar } from "expo-status-bar";
 import { useMemo, useState } from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
 import {
   Alert,
   Modal,
   Pressable,
-  SafeAreaView,
   ScrollView,
-  StatusBar,
   StyleSheet,
   Text,
   TextInput,
@@ -265,7 +265,7 @@ export default function Index() {
 
   return (
     <SafeAreaView style={styles.safe}>
-      <StatusBar barStyle="dark-content" backgroundColor={COLORS.background} />
+      <StatusBar style="dark" />
 
       <View style={styles.app}>
         <View style={styles.header}>
